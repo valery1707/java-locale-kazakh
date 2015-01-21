@@ -1,12 +1,12 @@
 # INSTALLATION
 
-REQUIREMENTS: Java SE 8 or higher.
+REQUIREMENTS: Java SE 6 or higher.
 
 ## 1. Installing
 
 ### 1.1. Installing permanently into your JVM
 
-For installing Kazakh locale, just copy the `locale-kazakh-java8-{version}.jar` file into your Java virtual machine's extension folder:
+For installing Kazakh locale, just copy the `locale-kazakh-{version}.jar` file into your Java virtual machine's extension folder:
 
 * For a Java JDK: $JAVA_HOME/jre/lib/ext
 * For a Java JRE: $JAVA_HOME/lib/ext
