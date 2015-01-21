@@ -10,16 +10,15 @@ import static name.valery1707.java.kazakh.constants.KazakhLocales.checkLocale;
 
 public final class KazakhDateFormatProvider extends DateFormatProvider {
 
-	//todo Fix
-	public static final String PATTERN_DATE_SHORT = "d'/'MM'/'yy";
-	public static final String PATTERN_DATE_MEDIUM = "dd'-'MMM'-'yyyy";
-	public static final String PATTERN_DATE_LONG = "d 'de' MMMM 'de' yyyy";
-	public static final String PATTERN_DATE_FULL = "EEEE d 'de' MMMM 'de' yyyy";
+	public static final String PATTERN_DATE_SHORT = "dd'.'MM'.'yy";
+	public static final String PATTERN_DATE_MEDIUM = "dd MMM yyyy 'ж.'";
+	public static final String PATTERN_DATE_LONG = "dd MMMM yyyy 'жыл'";
+	public static final String PATTERN_DATE_FULL = "EEEE d MMMM yyyy 'жыл'";
 
-	public static final String PATTERN_TIME_SHORT = "H':'mm";
-	public static final String PATTERN_TIME_MEDIUM = "H':'mm':'ss";
-	public static final String PATTERN_TIME_LONG = "H':'mm':'ss z";
-	public static final String PATTERN_TIME_FULL = "HH'H'mm'' z";
+	public static final String PATTERN_TIME_SHORT = "HH':'mm";
+	public static final String PATTERN_TIME_MEDIUM = "HH':'mm':'ss";
+	public static final String PATTERN_TIME_LONG = "HH':'mm':'ss z";
+	public static final String PATTERN_TIME_FULL = "HH':'mm':'ss z";
 
 	public KazakhDateFormatProvider() {
 		super();
