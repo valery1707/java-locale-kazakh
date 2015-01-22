@@ -21,3 +21,7 @@ out/
 *.iml
 *.ldb
 .idea/
+
+# Maven release plugin artifact
+release.properties
+pom.xml.releaseBackup
