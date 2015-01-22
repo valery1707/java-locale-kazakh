@@ -21,6 +21,10 @@ public final class KazakhStrings {
 	public static final String[] WEEKDAYS_NARROW_STANDALONE = WEEKDAYS_SHORT_STANDALONE;
 	public static final String[] WEEKDAYS_NARROW_FORMAT = WEEKDAYS_NARROW_STANDALONE;
 
+	public static final String CURRENCY_ID = "KZT";
+	public static final String CURRENCY_LONG = "Теңге";
+	public static final String CURRENCY_SHORT = "тңг";
+
 	private KazakhStrings() {
 	}
 }
