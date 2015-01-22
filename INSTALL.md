@@ -19,3 +19,7 @@ If you prefer not to install the Kazakh locale file into your VM's folder, you c
 ```bash
 $ java -Djava.ext.dirs=$MY_EXTENSIONS_DIR ...
 ```
+
+## 2. Checking installation
+
+For checking installation Kazakh locale to JVM you may use project [Locale Kazakh Check](https://github.com/valery1707/java-locale-kazakh-check).
