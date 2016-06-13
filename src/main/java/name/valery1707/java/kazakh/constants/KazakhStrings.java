@@ -24,6 +24,7 @@ public final class KazakhStrings {
 	public static final String CURRENCY_ID = "KZT";
 	public static final String CURRENCY_LONG = "Теңге";
 	public static final String CURRENCY_SHORT = "тңг";
+	public static final String CURRENCY_SYMBOL = "₸";
 
 	private KazakhStrings() {
 	}
