@@ -17,6 +17,7 @@ Some information for developers.
 ## Create release
 
 Run command `mvn release:prepare release:perform` and maven make this actions:
+
 1. Update project version from snapshot to release
 1. Build project with goals 'clean verify'
 1. Commit and push migration to release version
